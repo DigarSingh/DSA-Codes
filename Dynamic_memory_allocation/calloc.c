@@ -18,6 +18,7 @@ int main(){
      for(int i=0;i<n;i++){ //for output
           printf("%d ",ptr[i]);
      }
+     free(ptr);
 
      return 0;
 }
